@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/*This is code simply passes the betty test*/
+/*This code simply passes the betty test*/
 
 main()
 {
