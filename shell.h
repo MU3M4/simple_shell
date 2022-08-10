@@ -26,9 +26,6 @@ extern char **environ;
 #include <linux/limits.h>
 
 
-
-
-
 /**###### STRING FUNCTION ######*/
 
 char *_strtok(char *str, const char *tok);
@@ -49,7 +46,7 @@ char *_strchr(char *s, char c);
 int _strncmp(const char *s1, const char *s2, size_t n);
 char *_strdup(char *str);
 
-/**###### MEMORIE  MANGMENT ####*/
+/**###### MEMORY  MGT ####*/
 
 void free_env(char **env);
 void *fill_an_array(void *a, int el, unsigned int len);
@@ -108,5 +105,12 @@ typedef struct  bulltin
 	char *command;
 	int (*fun)(char **line, int er);
 } bul_t;
+
+/*Extra*/
+void print_prompt1(void);
+void print_prompt2(void);
+
+char *read_cmd(void);
+
 
 #endif

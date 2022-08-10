@@ -1,4 +1,4 @@
-.TH man 1 "20 November 2020" "0.20" "HSH man page"
+.TH man 1 "10 August 2022" "0.20" "HSH man page"
 .SH NAME
 .B hsh 
 - Simple Shell Studying purpose Holberton School
@@ -98,6 +98,7 @@ are handled automatically by
 No Known bug , please 
 Report 
 .B hsh
-bugs to https://github.com/Theemiss/simple_shell/issues
+bugs to https://github.com/MU3M4/simple_shell/issues
 .SH AUTHOR
-Ahmed Belhaj
+Okechukwu Chioma
+Muisyo Emmanuel
